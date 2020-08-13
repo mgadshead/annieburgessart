@@ -1,4 +1,8 @@
-input:focus, textarea:focus, select:focus, button:focus {
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.lg-outer.lg-visible {
   outline: none; }
 
 a {
@@ -30,7 +34,9 @@ header {
   left: 16px;
   z-index: 3; }
 
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
   height: 2px;
   width: 32px; }
 
@@ -52,7 +58,7 @@ header {
   .menu-container.menu-open {
     left: 0; }
   .menu-container::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 50px;
     height: 100%;
@@ -124,7 +130,6 @@ h1 {
   @media (max-width: 600px) {
     h1 .header-page-title {
       display: none; } }
-
 #gallery {
   margin: 0;
   padding: 0;
@@ -155,7 +160,6 @@ h1 {
   @media (max-width: 1200px) {
     #gallery {
       column-count: 2; } }
-
 .lg-image {
   max-height: calc(100% - 104px) !important;
   max-width: calc(100% - 115px) !important; }
@@ -174,10 +178,12 @@ h1 {
     .lg-toolbar .lg-icon:hover {
       color: #000; }
 
-.lg-actions .lg-next, .lg-actions .lg-prev {
+.lg-actions .lg-next,
+.lg-actions .lg-prev {
   color: #fff;
   background-color: #000; }
-  .lg-actions .lg-next:hover, .lg-actions .lg-prev:hover {
+  .lg-actions .lg-next:hover,
+  .lg-actions .lg-prev:hover {
     color: #fff; }
 
 .lg-actions .lg-next {

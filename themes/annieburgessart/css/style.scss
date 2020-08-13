@@ -1,4 +1,8 @@
-input:focus, textarea:focus, select:focus, button:focus{
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.lg-outer.lg-visible {
     outline: none;
 }
 
@@ -37,7 +41,9 @@ header {
     z-index: 3;
 }
 
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
     height: 2px;
     width: 32px;
 }
@@ -61,7 +67,7 @@ header {
         left: 0;
     }
     &::after {
-        content: "";
+        content: '';
         position: absolute;
         width: 50px;
         height: 100%;
@@ -228,7 +234,8 @@ h1 {
 }
 
 .lg-actions {
-    .lg-next, .lg-prev {
+    .lg-next,
+    .lg-prev {
         color: #fff;
         background-color: #000;
         &:hover {
